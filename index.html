@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dad's Gallery</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Dad's Gallery</h1>
+    
+    <!--p>
+      Click on the button to go through these art pieces!
+    </p-->
+    
+    <p>
+       Click on the pictures for pricing information! <span style="font-size:30px;">&#128179;</span>
+    </p>
+    
+      <button id="next" type="button" onclick="nextButton()">Next</button>
+      <button id="back" type="button"  onclick="backButton()">Back</button>
+
+    <!-- <button type="button"  onclick="purchaseImage()">Buy Now</button> -->
+
+    <!--<div class="popup" onclick="purchaseImage()"> Buy Now
+      <span class="popuptext" id="myPopup"></span>
+    </div> -->
+    
+    <div class="polaroid">
+      <a id="polaroid" href="#" title="Wasted">
+        <div class="popup">
+        <span class="popuptext" id="myPopup" > </span>
+        <img class="polaroid" id="img" onclick="purchaseImage()" src="https://cdn.glitch.com/2ce06604-e73a-4498-828b-1d6b1ba5c1cb%2FIMG_1891.jpg?v=1587687444064"/>
+        </div>
+      </a>
+    </div>
+    
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <!--div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script-->
+  </body>
+</html>
